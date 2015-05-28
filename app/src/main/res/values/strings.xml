@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AGENDA DE PERSONAS CON SQLite</string>
+    <string name="crear_personas">AGREGAR</string>
+    <string name="editTextNombre">Nombre completo</string>
+    <string name="editTextCorreo">Correo electronico</string>
+    <string name="editTextTelefono">Telefono o celular</string>
+    <string name="editTextDireccion">Direccion (calle y numero)</string>
+    <string name="agregarImagenPersona">AGREGAR IMAGEN</string>
+    <string name="botonGuardar">GUARDAR</string>
+    <string name="botonLimpiar">LIMPIAR</string>
+    <string name="opcion_editar_persona">Editar</string>
+    <string name="opcion_eliminar_persona">Eliminar</string>
+</resources>

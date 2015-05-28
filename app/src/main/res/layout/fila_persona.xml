@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="6dip"
+    android:weightSum="1"
+    android:id="@+id/layout">
+
+    <ImageView
+    	android:id="@+id/thumb_persona"
+    	android:layout_width="110dip"
+    	android:layout_height="100dip" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/TextViewNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre completo"
+            android:layout_marginLeft="15dp"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/TextViewCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="correo@electronico"
+            android:layout_marginLeft="15dp"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TELEFONO:"
+                android:id="@+id/textView"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+                android:id="@+id/TextViewTelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono"
+                android:layout_marginLeft="5dp"
+                android:textSize="16dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DIRECCION:"
+                android:id="@+id/textView2"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/TextViewDireccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Direccion"
+                android:layout_marginLeft="5dp"
+                android:textSize="16dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

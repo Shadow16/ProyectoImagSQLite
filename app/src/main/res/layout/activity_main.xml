@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/botonAgregarPersona"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:text="@string/crear_personas"
+        android:background="#ff63a54c"
+        android:textColor="#ffffffff" />
+
+    <ListView
+        android:id="@+id/listViewPersonas"
+        android:layout_width="fill_parent"
+        android:layout_height="490dp"
+        android:layout_y="52dp" />
+
+</AbsoluteLayout>
